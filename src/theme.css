@@ -1,0 +1,17 @@
+.light {
+  --theme-color: #f5fffa;
+  --theme-header: #e7feff;
+  --theme-page-text: #0e1111;
+  --theme-kids-button: #ff0000;
+  --theme-movie-bg-overview: #e7feff;
+  --theme-movie-font-overview: #0e1111;
+}
+
+.dark {
+  --theme-color: #0e1111;
+  --theme-header: #232b2b;
+  --theme-page-text: aliceblue;
+  --theme-kids-button: #ffaa05;
+  --theme-movie-bg-overview: aliceblue;
+  --theme-movie-font-overview: #0e1111;
+}
