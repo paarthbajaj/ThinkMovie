@@ -36,6 +36,19 @@ header span {
   font-family: "Nunito", sans-serif;
   cursor: pointer;
 }
+.watchlist {
+  align-self: center;
+  margin-right: 1rem;
+  color: var(--theme-page-text);
+  background-color: var(--theme-header);
+  font-size: medium;
+  border: 0;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
 .kids {
   font-family: "Permanent Marker", cursive;
   font-size: xx-large;
@@ -62,13 +75,13 @@ header span {
 .searchbar:focus {
   outline: 0;
 }
-form button {
+.theme-button {
   background: rgba(0, 0, 0, 0);
   border: 0;
   margin-left: 2px;
   font-size: x-large;
 }
-form button:focus {
+.theme-button:focus {
   outline: 0;
 }
 nav {
@@ -118,6 +131,20 @@ nav button:focus {
 .movieInfo h3 {
   margin: 0;
 }
+.movieOverview h2 {
+  display: inline;
+}
+.watchlistCard {
+  float: right;
+  color: var(--theme-movie-font-overview);
+  background-color: var(--theme-movie-bg-overview);
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+.watchlistCard:active {
+  border: 1px solid;
+}
+
 .movieOverview {
   color: var(--theme-movie-font-overview);
   background-color: var(--theme-movie-bg-overview);

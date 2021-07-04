@@ -9,7 +9,9 @@ body {
   /* #0e1111; */
   color: var(--theme-page-text);
 }
-
+html {
+  background-color: var(--theme-color);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
